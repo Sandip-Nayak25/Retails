@@ -1,0 +1,138 @@
+/* ! Labor Efficiency  */
+
+.labor-efficiency-card{
+    background: #fff;
+    border: 1.5px solid #E5E7EB;
+    border-radius: 9px;
+    box-shadow: 1px 1px 4px 2px #E5E7EB;
+    width: 300px;
+    height: 560px;
+    margin-top: 2rem;
+}
+
+.labor-header {
+    font-size: 1.25rem;
+    margin-bottom: 0.2rem;  
+    color: #1a1a1a;
+    background-color: #DBFCE7;
+    padding: 0.8rem 1rem;
+    line-height: 2;
+}
+    & h3 {
+        font-size: 1.4rem;
+    }
+    & .labor-label {
+        font-size: 0.7rem;
+        color: #008236;
+}
+
+.labor-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    padding: 20px;
+   
+}
+
+.labor-border-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #E2FDEB;
+    border: 5px solid #B9F8CF;
+    margin-top: 1rem;
+
+    & img{
+        height: 45px;
+    }
+}
+
+.labor-button{
+    display: flex;
+    justify-content: center;
+    margin: 1.5em 0;
+
+    & .button{
+        background-color:#E2FDEB;
+        padding: 0.8em 1.8em;
+        border-radius: 25px;
+        border: 2px solid #2aec81;
+        color: #008236;
+        font-size: 1em;
+        font-weight: 800;
+    }
+}
+
+
+.labor-line {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    border-bottom: 1px solid #e5e7eb;
+    color: #4A5565;
+    
+    & p{
+        font-size: 0.9rem;
+    }
+
+    & .labor-no{
+        font-size: 0.80em;
+
+    }
+    & .dollar {
+        color: #008236;
+        font-weight: bold;
+    }
+    & .hour {
+        color: #1349E7;
+        font-weight: bold;
+    }
+    & .percent {
+        color: #9810FA;
+        font-weight: bold;
+    }
+
+}
+
+.labor-bar-contain{
+    padding: 1em 1.5em;
+    font-size: 0.75rem;
+    font-weight: 600;
+    
+
+}
+
+.labor-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+
+.labor-bar {
+    flex: 1;
+    height: 11px;
+    background-color: #ebf0f7; 
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+.labor-fill {
+    height: 100%;
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out;
+}
+
+
+.labor-bar-count {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #000;
+    text-align: right;
+    padding: 0 1.1em;
+     color: #019d47;
+}

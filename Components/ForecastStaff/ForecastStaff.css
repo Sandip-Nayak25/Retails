@@ -1,0 +1,46 @@
+.staff-container{
+    border: 1.5px solid #E5E7EB;
+    box-shadow: 1px 1px 4px 2px #E5E7EB;
+    padding: 2rem 0;
+    border-radius: 10px;
+}
+
+.staff-header{
+    & h3{
+        font-size: 1.1em;
+        padding: 0 1.3em;
+    }
+}
+
+.staff-list-contain{
+    display: flex;
+    justify-content: center;
+}
+.staff-list{
+
+     margin: 1rem;
+     border: 0.15rem solid var(--card-border-color); 
+     box-shadow: 1px 1px 4px 2px #E5E7EB;
+     background-color: #EFF6FF;
+     padding: 1em;
+     width: 500px;
+     border-radius: 10px;
+     line-height: 2;
+     
+     & .staff-text{
+         font-weight: 500;
+         font-size: 0.8em;
+         color: var(--primary-blue);
+     }
+
+     & .shift{
+        color: #1C398E;
+        font-weight: bold;
+        font-size: 1.4em;
+    }
+    
+}
+
+
+
+

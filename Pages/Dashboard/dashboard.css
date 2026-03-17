@@ -1,0 +1,13 @@
+@import url('/Components/EmployeeAttendanceTable/employeeTable.css');
+@import url('/Components/KpiCard/kpiCard.css');
+@import url("/Components/SalesChart/salesChart.css");
+@import url("/Components/LaborEfficiency/laborEfficiency.css");
+
+ .table-graph{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+}
+
+
+

@@ -1,0 +1,18 @@
+@import url("/Components/SettingsStore/settingsStore.css");
+@import url("/Components/UserManagement/userManagement.css");
+@import url("/Components/Notifications/notifications.css");
+@import url("/Components/Security/security.css");
+
+.settings-wrapper{
+    margin-bottom: 2rem;
+}
+.setting-header{
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+
+    & .setting-label {
+    font-size: 0.77em;
+    line-height: 2;
+    }
+
+}

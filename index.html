@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">RetailDash | Pro Dashboard</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    
+
+
+</head>
+<body>
+    
+    <div class="Dashboard">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="icon"></div>
+                <div class="logo">RetailDash</div>
+            </div>
+            
+            <nav class="sidebar-nav" id="nav-menu">
+                <ul>
+                    <li class="nav-link" data-page="dashboard">
+                        <img src="./assets/icons/Dashboard.png" alt="Dashboard">
+                        <span>Dashboard</span>
+                    </li>
+                    <li class="nav-link" data-page="workforce">
+                        <img src="./assets/icons/people-side.svg" alt="Workforce">
+                        <span>Workforce</span>
+                    </li>
+                    <li class="nav-link" data-page="sales">
+                        <img src="./assets/icons/Sales.svg" alt="Sales">
+                        <span>Sales</span>
+                    </li>
+                    <li class="nav-link" data-page="forecast">
+                        <img src="./assets/icons/percent.svg" alt="Forecast">
+                        <span>Forecast</span>
+                    </li>
+                    <li class="nav-link" data-page="settings">
+                        <img src="./assets/icons/Settings.svg" alt="Settings">
+                        <span>Settings</span>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            
+            <header class="top-header">
+                <div class="header-left">
+                    <h2 id="view-title"></h2>
+                    <p id="current-date"></p>
+                </div>
+                
+                <div class="header-right">
+                    <button class="notification" aria-label="Notifications">
+                        <span class="count">3</span>
+                        <img src="./assets/icons/bell.svg" alt="">
+                    </button>
+                    
+                    <button class="profile" aria-label="User Profile">
+                        <img src="./assets/icons/person.svg" alt="Profile">
+                    </button>
+                </div>
+            </header>
+
+            <div id="contentArea">
+                <section id="root">
+                    
+                </section>
+            </div>
+
+        </main>
+    </div>
+
+    <script type="module" src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.sale-container{
+    border: 1.5px solid #E5E7EB;
+    box-shadow: 1px 1px 4px 2px #E5E7EB;
+    padding: 2rem 0;
+    border-radius: 10px;
+}
+
+.sale-header{
+    & h3{
+        font-size: 1.3em;
+        padding: 0 1.4em;
+    }
+}
+
+.sale-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 1.8rem;
+     border-left: 0.3rem solid var(--primary-blue); 
+     box-shadow: 1px 1px 4px 2px #E5E7EB;
+     background-color: #EFF6FF;
+     padding: 1.2em;
+     border-radius: 10px;
+     
+     & .sale-text{
+         color: #364153;
+         font-weight: 600;
+         font-size: 0.95rem;
+     }
+
+     & .shift{
+        color: var(--primary-blue);
+        font-weight: 700;
+        font-size: 0.95rem;
+    }
+    
+}
+
+
+
+

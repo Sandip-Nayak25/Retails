@@ -1,0 +1,233 @@
+
+@import url('./Pages/Dashboard/dashboard.css');
+@import url('./Pages/Forecast/forecast.css');
+@import url('./Pages/Sales/sales.css');
+@import url('./Pages/Settings/settings.css');
+@import url('./Pages/Workforce/workforce.css');
+
+:root {
+
+    --primary-blue: #1349E7;
+
+    --icon-border-light: #ffffff;
+
+    --status-color: #1349E7;
+
+    --bg-light: #F7FAFC;
+
+    --text-dark: #1e293b;
+
+    --text-light: #ffffff;
+
+    --text-muted: #364153;
+
+    --border-color: #e2e8f0;
+
+    --sidebar-width: 240px;
+
+    --transition: all 0.3s ease;
+
+    --card-border-color : #9ac2f5;
+
+    --tb-row-border-color: #e7e8e9;
+
+    --work-card-color: #E5F0FE;
+
+    --work-card-icon-color: #2B7FFF;
+    
+    --work-card-status-color: #1C398E;
+
+
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+body {
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+    height: 100vh;
+    overflow: hidden; 
+}
+
+.Dashboard {
+    display: flex;
+    height: 100vh;
+}
+
+
+.sidebar {
+    width: var(--sidebar-width);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: var(--bg-light);
+    border-right: 1.5px solid var(--border-color);
+    z-index: 1000;
+}
+
+
+
+.sidebar-header {
+    background-color: var(--primary-blue);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: var(--text-light);
+    height: 70px;
+}
+
+
+
+.icon {
+    width: 32px;
+    height: 32px;
+    border: 6px solid var(--icon-border-light);
+    border-radius: 6px;
+    background-color: var(--primary-blue);
+}
+
+
+
+.logo {
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-left: 12px;
+    white-space: nowrap;
+}
+
+
+
+.sidebar-nav ul {
+    list-style: none;
+    padding-top: 10px;
+}
+
+
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 20px;
+    margin: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #475569;
+    transition: var(--transition);
+
+}
+
+
+
+.nav-link img {
+    width: 20px;
+    height: 20px;
+    filter: opacity(0.7);
+}
+
+
+
+.nav-link:hover {
+    background: #eef2ff;
+    color: var(--primary-blue);
+}
+
+
+
+.nav-link.active {
+    background-color: var(--primary-blue);
+    color: #ffffff;
+}
+
+
+
+.main-content {
+    flex: 1;
+    margin-left: var(--sidebar-width);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; 
+    overflow-x: hidden;
+    transition: var(--transition);
+}
+
+
+
+.top-header {
+    position: sticky;
+    top: 0;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    height: 70px;
+    border-bottom: 1.5px solid var(--border-color);
+    z-index: 900;
+}
+
+.header-left h2 {
+    font-size: 1.2rem;
+    line-height: 2;
+    font-weight: 700;
+}
+
+#current-date {
+    font-size: 0.8rem;
+    color: var(--primary-blue);
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.notification,.profile{
+    background: #f1f5f9;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    border: 2px solid #9ac2f5;
+}
+
+.notification .count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: #ef4444;
+    color: #fff;
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 50%;
+
+}
+.profile{
+        padding: 0.8rem;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #1a72f8;
+}
+
+#contentArea {
+    padding: 20px;
+    flex: 1;
+
+}
+
+
+

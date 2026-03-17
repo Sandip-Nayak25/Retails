@@ -1,0 +1,36 @@
+.monthSale-container{
+    border: 1.5px solid #E5E7EB;
+    box-shadow: 1px 1px 4px 2px #E5E7EB;
+    padding: 2rem 0;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.monthSale-header h3{
+        font-size: 1.3em;
+        padding: 0 1.4em;
+    
+}
+
+.monthSale-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 1.8rem;
+     background-color: #EFF6FF;
+     padding: 8em;
+     border: 2px solid #BEDBFF;
+     border-radius: 10px;
+     
+     & .monthSale-text{
+         color: #155DFC;
+         font-weight: 600;
+         font-size: 1.1rem;
+     }
+
+    
+}
+
+
+
+

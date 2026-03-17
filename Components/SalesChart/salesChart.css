@@ -1,0 +1,129 @@
+/* ! graph bars */
+
+.sales-chart-card {
+    background: #ffffff;
+    border-radius: 16px;
+    border: 1.5px solid #E5E7EB;
+    box-shadow: 1px 1px 4px 2px #E5E7EB;
+    width: 100%;
+}
+
+.chart-header  {
+    background-color: #FCF3FA;
+    margin-bottom: 4px;
+    border-bottom: 2px solid #f1f5f9;
+    padding: 0.5rem 24px;
+    line-height: 2;
+
+    & h3{
+        font-size: 1.2rem;
+        color: #1e293b;
+    }
+    
+    & p{
+    font-size: 0.7rem;
+    color: #b24bfa;
+    }
+
+}
+
+.bar-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 200px;
+    margin-top: 20px;
+    padding: 10px;
+    border-bottom: 2px solid #f1f5f9;
+}
+
+.bar-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.bar-wrapper {
+    height: 160px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+}
+
+.bar {
+    width: 28px;
+    border-radius: 10px 10px 2px 2px;
+    position: relative;
+    cursor: pointer;
+  
+    &.high-perform { 
+    background: #155DFC; 
+    }
+
+    &.normal-perform { 
+    background: #257af9; 
+    }
+
+    &.low-perform {
+    background-color: #f59e0b;
+    }
+
+    &:hover {
+    filter: brightness(1.1);
+    transform: scaleX(1.1);
+    } 
+
+}
+
+
+
+.tooltip {
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #1e293b;
+    color: #ffffff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 600;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s ease;
+   
+}
+
+.bar:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+
+.day-label {
+    margin-top: 12px;
+    font-size: 0.75rem;
+    color: #64748b;
+    font-weight: 700;
+}
+
+.avg-footer {
+    width: 250px;
+    padding: 1rem;
+    margin: 1rem auto;
+    background-color: #e0ecfa;
+    border-radius: 10px;
+}
+
+.avg-label {
+    font-size: 0.7rem;
+    color: #257af9;
+}
+
+.avg-value {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #257af9;
+}

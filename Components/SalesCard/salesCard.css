@@ -1,0 +1,74 @@
+/* ! Card */
+.sales-header{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+
+    & .sales-label {
+    font-size: 0.77em;
+    line-height: 2;
+    color: var(--primary-blue);
+    }
+
+}
+
+.sales-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+.sales-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 0.15rem solid var(--card-border-color); 
+    height: 1px;
+    width: 220px;
+    gap: 0.3rem;
+    padding: 5.5rem 1rem;
+    border-radius: 8px;
+    background-color: var(--work-card-color);
+
+    & .sales-label {
+    color: #000; 
+    font-size: 2rem;
+    padding: 0.5rem 0;
+    font-weight: 600;
+    
+}
+    
+    & .cardIcon {
+        background-color: var(--work-card-icon-color);
+        padding: 0.5em;
+        height: 45px;
+        width: 45px;
+        border-radius: 20%;
+        margin: 1rem 0;
+
+        & img {
+            height: 25px;
+            
+        }
+    }
+    & .sales-label{
+        color: var(--work-card-status-color);
+        
+    }
+    
+   
+
+    & .sales-title{
+        font-size: 0.88rem;
+        color: var(--primary-blue);
+        font-weight: 600;
+    }
+    
+}
+
+.sales-card:hover{
+    box-shadow: 0rem 0.15rem .4rem #bfd5f2;
+}
+
+
+ 
