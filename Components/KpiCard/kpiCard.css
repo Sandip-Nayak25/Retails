@@ -10,7 +10,7 @@
 
 .kpi-card {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-direction: column;
     border: 0.15rem solid var(--card-border-color); 
     min-height: 200px; 
