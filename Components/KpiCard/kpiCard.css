@@ -64,14 +64,14 @@
 
 
 /* ! Medium screens */
-@media (min-width: 768px) {
+@media (max-width: 1024px) {
     .kpi-card {
         width: 350px;
     }
 }
 
 /* ! Small screens */
-@media (min-width: 320px) {
+@media (max-width: 600px) {
     .kpi-grid {
         gap: 15px;
         padding: 0 10px;
