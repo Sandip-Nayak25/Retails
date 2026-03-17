@@ -90,16 +90,16 @@ async function navigateTo(page) {
 navigateTo('dashboard');
 
 
-// setInterval(() => {
-//     const isTyping = document.activeElement.tagName === 'INPUT' || 
-//                      document.activeElement.tagName === 'TEXTAREA';
+setInterval(() => {
+    const isTyping = document.activeElement.tagName === 'INPUT' || 
+                     document.activeElement.tagName === 'TEXTAREA';
 
-//     // if (isTyping) {
-//     //     console.log("stop-refresh");
-//     //     return; 
-//     // }
-//     const activeLink = document.querySelector('.nav-link.active');
-//     const currentPage = activeLink.dataset.page;
-//     // console.log(" Auto-refresh");
-//     navigateTo(currentPage);
-// }, 10000);
+    // if (isTyping) {
+    //     console.log("stop-refresh");
+    //     return; 
+    // }
+    const activeLink = document.querySelector('.nav-link.active');
+    const currentPage = activeLink.dataset.page;
+    // console.log(" Auto-refresh");
+    navigateTo(currentPage);
+}, 10000);
