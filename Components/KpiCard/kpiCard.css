@@ -66,7 +66,7 @@
 /* ! Medium screens */
 @media (max-width: 1024px) {
     .kpi-card {
-        width: calc(45% - 20px); /* Shows 2 cards per row */
+        width: calc(50% - 20px); 
         max-width: 300px;
     }
 }
