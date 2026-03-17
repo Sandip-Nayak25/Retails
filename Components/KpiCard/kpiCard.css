@@ -1,8 +1,7 @@
 /* ! Card */
 .kpi-grid {
     display: flex;
-    flex-wrap: wrap; /* Allows cards to drop to the next line */
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 30px;
     gap: 20px;
 }
