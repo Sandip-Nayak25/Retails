@@ -38,7 +38,7 @@ export function forecastCard(allApiData) {
 
             <div class="forecast-card">
                 <div class="cardIcon">
-                    <img src="./assets/icons/award.svg" alt=''>
+                    <img src="./assets/icons/activity-graph.svg" alt=''>
                 </div>
                 <p class="forecast-title">Traffic Est.</p>
                 <div class="forecast-label">$${avg.toLocaleString()}</div>
