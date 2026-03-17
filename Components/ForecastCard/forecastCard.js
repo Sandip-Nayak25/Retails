@@ -30,7 +30,7 @@ export function forecastCard(allApiData) {
 
             <div class="forecast-card">
                 <div class="cardIcon">
-                    <img src="./assets/icons/clock.svg" alt=''>
+                    <img src="./assets/icons/target.svg" alt=''>
                 </div>
                 <p class="forecast-title">Accuracy</p>
                 <div class="forecast-label">${trans}</div>
