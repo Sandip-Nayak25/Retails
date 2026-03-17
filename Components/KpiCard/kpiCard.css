@@ -1,7 +1,7 @@
 /* ! Card */
 .kpi-grid {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-bottom: 30px;
     gap: 20px;
 }
