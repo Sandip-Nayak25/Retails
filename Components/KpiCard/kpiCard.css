@@ -9,13 +9,13 @@
 .kpi-card {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     border: 0.15rem solid var(--card-border-color); 
     min-height: 200px; 
     min-width: 220px; 
     padding: 2rem 1.5rem;
     border-radius: 8px;
     background-color: #EFF6FF;
-    margin: 0 20px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 
     & .cardIcon {
