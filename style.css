@@ -152,7 +152,7 @@ body {
 }
 
 .nav-link img.active{
-    filter: opacity(0.1);
+    filter: opacity(4);
 }
 
 
