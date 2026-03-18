@@ -74,11 +74,11 @@
         gap: 15px;
         padding: 0 10px;
         flex-wrap: wrap;
-        width: 50%;
+        width: 100%;
     }
     
     .kpi-card {
-        width: 100%; 
+        width: 50%; 
         max-width: none;
         padding: 1.5rem;
     }
