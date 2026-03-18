@@ -2,6 +2,7 @@
 .kpi-grid {
     display: flex;
     margin-bottom: 30px;
+    justify-content: space-around;
     
 }
 
@@ -9,7 +10,6 @@
 .kpi-card {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     border: 0.15rem solid var(--card-border-color); 
     min-height: 200px; 
     min-width: 220px; 
