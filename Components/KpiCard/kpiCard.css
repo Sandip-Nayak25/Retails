@@ -63,11 +63,9 @@
 
 /* ! Medium screens */
 @media screen and (max-width: 1024px) {
-    .kpi-card {
-        min-width: 250px;
+    .kpi-grid {
         display: flex;
-        flex-direction: row;
-        justify-content: center;
+        flex-direction: column;
     }
 }
 
