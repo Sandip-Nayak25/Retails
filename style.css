@@ -133,7 +133,7 @@ body {
 .nav-link img {
     width: 20px;
     height: 20px;
-    filter: invert(1);
+    
 }
 
 
@@ -148,6 +148,11 @@ body {
     background-color: var(--primary-blue);
     color: #ffffff;
     
+    
+}
+
+.nav-link img.active{
+    filter: invert(1);
     
 }
 
