@@ -24,7 +24,7 @@
     flex-direction: column;
     border: 0.15rem solid var(--card-border-color); 
     height: 1px;
-    width: 100%;
+    /* width: 100%; */
     gap: 0.3rem;
     padding: 5.5rem 1rem;
     border-radius: 8px;
