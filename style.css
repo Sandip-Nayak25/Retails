@@ -145,15 +145,13 @@ body {
 
 
 
-.nav-link.active {
+.nav-link, .white.active {
     background-color: var(--primary-blue);
     color: #ffffff;
-
+    filter: invert(1);
 }
 
-.nav-link img.active{
-    filter: opacity(4);
-}
+
 
 
 .main-content {
