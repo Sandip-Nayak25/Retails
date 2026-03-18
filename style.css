@@ -59,7 +59,7 @@
 body {
     background-color: var(--bg-light);
     color: var(--text-dark);
-    height: 100vh;
+    height: var(--Retaildash-height);
     overflow: hidden; 
 }
 
