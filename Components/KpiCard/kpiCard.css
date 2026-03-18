@@ -2,21 +2,20 @@
 .kpi-grid {
     display: flex;
     margin-bottom: 30px;
-    margin: 0 20px;
+    
 }
 
 
 .kpi-card {
     display: flex;
-    /* justify-content: space-between; */
     flex-direction: column;
     border: 0.15rem solid var(--card-border-color); 
     min-height: 200px; 
     min-width: 220px; 
-    gap: 20px;
     padding: 2rem 1.5rem;
     border-radius: 8px;
     background-color: #EFF6FF;
+    margin: 0 20px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 
     & .cardIcon {
