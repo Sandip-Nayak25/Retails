@@ -145,10 +145,10 @@ body {
 
 
 
-.nav-link.active img{
+.nav-link.active{
     background-color: var(--primary-blue);
     color: #ffffff;
-    filter: brightness(0) invert(1);
+    
     
 }
 
