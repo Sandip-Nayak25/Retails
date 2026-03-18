@@ -41,6 +41,8 @@
 
     --notification-background-color: #ef4444;
 
+    --Retaildash-height: 100vh;
+
 }
 
 
@@ -63,13 +65,13 @@ body {
 
 .Dashboard {
     display: flex;
-    height: 100vh;
+    height: var(--Retaildash-height);
 }
 
 
 .sidebar {
     width: var(--sidebar-width);
-    height: 100vh;
+    height: var(--Retaildash-height);
     position: fixed;
     top: 0;
     left: 0;
