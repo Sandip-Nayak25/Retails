@@ -1,4 +1,4 @@
-export const workCard = (allApiData) => {
+ export const workCard = (allApiData) => {
 
     const countEmp = allApiData?.empData[0].employees || "-";
     const label = countEmp.length;

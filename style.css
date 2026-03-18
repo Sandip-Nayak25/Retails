@@ -37,6 +37,9 @@
     
     --work-card-status-color: #1C398E;
 
+    --profile-background-color: #1a72f8;
+
+    --notification-background-color: #ef4444;
 
 }
 
@@ -146,7 +149,7 @@ body {
 
 .nav-link.active{
     background-color: var(--primary-blue);
-    color: #ffffff;
+    color: var(--text-light);
     
     
 }
@@ -155,11 +158,6 @@ body {
     filter: invert(1);
     
 }
-
-
-
-
-
 
 
 .main-content {
@@ -212,15 +210,15 @@ body {
     cursor: pointer;
     position: relative;
     display: flex;
-    border: 2px solid #9ac2f5;
+    border: 2px solid var(--card-border-color);
 }
 
 .notification .count {
     position: absolute;
     top: -5px;
     right: -5px;
-    background: #ef4444;
-    color: #fff;
+    background: var(--notification-background-color);
+    color: var(--text-light);
     font-size: 10px;
     padding: 2px 6px;
     border-radius: 50%;
@@ -230,7 +228,7 @@ body {
         padding: 0.8rem;
         height: 50px;
         border-radius: 50%;
-        background-color: #1a72f8;
+        background-color: var(--profile-background-color);
 }
 
 #contentArea {
