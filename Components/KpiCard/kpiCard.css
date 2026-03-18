@@ -66,6 +66,7 @@
     .kpi-grid {
         display: flex;
         flex-direction: column;
+        width: 300px;
     }
 }
 
