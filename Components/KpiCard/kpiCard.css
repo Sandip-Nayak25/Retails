@@ -2,7 +2,7 @@
 .kpi-grid {
     display: flex;
     margin-bottom: 30px;
-    /* justify-content: space-between; */
+    justify-content: center;
     gap: 20px;
     
 }
