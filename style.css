@@ -25,18 +25,16 @@
 
     --border-color: #e2e8f0;
 
-    --sidebar-width: 240px;
-
     --card-border-color : #9ac2f5;
     
     --tb-row-border-color: #e7e8e9;
     
-    --work-card-color: #E5F0FE;
+    --card-bgcolor: #E5F0FE;
     
     --work-card-icon-color: #2B7FFF;
     
     --work-card-status-color: #1C398E;
-
+    
     --card-hover-color: #bfd5f2;
     
     --profile-background-color: #1a72f8;
@@ -44,9 +42,10 @@
     --notification-background-color: #ef4444;
     
     --transition: all 0.3s ease;
-
+    
     --Retaildash-height: 100vh;
-
+    
+    --sidebar-width: 240px;
 }
 
 
