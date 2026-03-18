@@ -73,7 +73,7 @@
     .kpi-grid {
         gap: 15px;
         padding: 0 10px;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
     }
     
     .kpi-card {
