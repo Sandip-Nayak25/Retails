@@ -150,9 +150,7 @@ body {
     
     
 }
-.nav-link img.active{
-    filter: brightness(0) invert(1);
-}
+
 
 
 
