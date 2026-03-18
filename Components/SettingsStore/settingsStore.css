@@ -23,7 +23,7 @@
     width:42px;
     height:42px;
     background:#2f80ed;
-    color:white;
+    color: var(--text-light);
     display:flex;
     align-items:center;
     justify-content:center;

@@ -1,7 +1,7 @@
 
 
 .userManagement-card{
-    background:#fff;
+    background: var(--text-light);
     border-radius:12px;
     box-shadow:0 1px 2px 3px #ccd4e0;
     overflow:hidden;
@@ -27,7 +27,7 @@
     width:42px;
     height:42px;
     background:#2f80ed;
-    color:white;
+    color: var(--text-light);
     display:flex;
     align-items:center;
     justify-content:center;
