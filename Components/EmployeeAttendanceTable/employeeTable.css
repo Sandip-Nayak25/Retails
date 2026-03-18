@@ -9,7 +9,7 @@
     max-height: 500px; 
     display: flex;
     flex-direction: column;
-    background: #fff;
+    background: var(--bg-white);
     overflow: hidden;
 }
 

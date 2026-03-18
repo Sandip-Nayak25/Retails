@@ -9,6 +9,8 @@
 
     --primary-blue: #1349E7;
 
+    --bg-white: #ffffff; 
+
     --icon-border-light: #ffffff;
 
     --status-color: #1349E7;
@@ -180,7 +182,7 @@ body {
 .top-header {
     position: sticky;
     top: 0;
-    background: #ffffff;
+    background: var(--bg-white);
     display: flex;
     justify-content: space-between;
     align-items: center;

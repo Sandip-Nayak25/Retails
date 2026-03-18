@@ -1,7 +1,7 @@
 /* ! graph bars */
 
 .sales-chart-card {
-    background: #ffffff;
+    background: var(--bg-white);
     border-radius: 16px;
     border: 1.5px solid #E5E7EB;
     box-shadow: 1px 1px 4px 2px #E5E7EB;

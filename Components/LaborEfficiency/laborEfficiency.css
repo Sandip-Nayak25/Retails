@@ -1,7 +1,7 @@
 /* ! Labor Efficiency  */
 
 .labor-efficiency-card{
-    background: #fff;
+    background: var(--bg-white);
     border: 1.5px solid #E5E7EB;
     border-radius: 9px;
     box-shadow: 1px 1px 4px 2px #E5E7EB;
