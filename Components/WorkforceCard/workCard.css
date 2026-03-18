@@ -67,7 +67,7 @@
 }
 
 .work-card:hover{
-    box-shadow: 0rem 0.15rem .4rem var(--work-card-hover-color);
+    box-shadow: 0rem 0.15rem .4rem var(--card-hover-color);
 }
 
 

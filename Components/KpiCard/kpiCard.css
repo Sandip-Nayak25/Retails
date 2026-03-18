@@ -55,7 +55,7 @@
 }
 
 .kpi-card:hover {
-    box-shadow: 0rem 0.15rem .4rem #bfd5f2;
+    box-shadow: 0rem 0.15rem .4rem var(--card-hover-color);
     transform: translateY(-5px);
 }
 
