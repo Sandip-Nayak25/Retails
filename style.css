@@ -148,12 +148,14 @@ body {
 .nav-link.active{
     background-color: var(--primary-blue);
     color: #ffffff;
+
+    & img{
+        filter: invert(1);
+    }
     
 }
 
-.nav-link img.active {
-    filter: invert(1);
-}
+
 
 
 
