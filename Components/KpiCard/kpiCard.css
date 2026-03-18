@@ -69,12 +69,12 @@
 }
 
 /* ! Small screens */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .kpi-grid {
         gap: 15px;
         padding: 0 10px;
         flex-wrap: wrap;
-        width: 200px;
+        width: 100px;
     }
     
     .kpi-card {
