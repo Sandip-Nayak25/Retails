@@ -61,14 +61,14 @@
 
 
 
-/* ! Medium screens */
+/* ! laptop screens */
 @media (max-width: 1024px) {
     .kpi-card {
         width: 350px;
     }
 }
 
-/* ! Small screens */
+/* ! tablet screens */
 @media (max-width: 768px) {
     .kpi-grid {
         gap: 15px;
