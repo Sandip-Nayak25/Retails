@@ -64,7 +64,7 @@
 /* ! Medium screens */
 @media screen and (max-width: 1024px) {
     .kpi-card {
-        min-width: 300px;
+        min-width: 250px;
         display: flex;
         flex-direction: column;
     }
