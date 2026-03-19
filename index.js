@@ -40,11 +40,11 @@ if (salesData?.length || empData?.length) {
   localStorage.setItem(CACHE_KEY, JSON.stringify(allApiData));
 }
 
-let currentPage = null;
+// let currentPage = null;
 async function navigateTo(page) {
 
-    if(page === currentPage && !isAutoRefresh)return;
-    currentPage = page;
+    // if(page === currentPage && !isAutoRefresh)return;
+    // currentPage = page;
 
     const root = document.getElementById('root');
     const dateElement = document.getElementById('current-date');
