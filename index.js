@@ -43,7 +43,7 @@ if (salesData?.length || empData?.length) {
 let currentPage = null;
 async function navigateTo(page) {
 
-    // if(page === currentPage && !isAutoRefresh)return;
+    if(page === currentPage && !isAutoRefresh)return;
     currentPage = page;
 
     const root = document.getElementById('root');
