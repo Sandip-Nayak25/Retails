@@ -40,11 +40,7 @@ if (salesData?.length || empData?.length) {
   localStorage.setItem(CACHE_KEY, JSON.stringify(allApiData));
 }
 
-let currentPage = null;
 async function navigateTo(page) {
-
-    if(page === currentPage && !isAutoRefresh)return;
-    currentPage = page;
 
     const root = document.getElementById('root');
     const dateElement = document.getElementById('current-date');
@@ -107,4 +103,4 @@ setInterval(() => {
     const currentPage = activeLink.dataset.page;
     // console.log(" Auto-refresh");
     navigateTo(currentPage);
-}, 10000);
+}, 6000);
