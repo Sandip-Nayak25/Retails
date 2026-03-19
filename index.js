@@ -96,7 +96,7 @@ setInterval(() => {
                      document.activeElement.tagName === 'TEXTAREA';
 
     if (isTyping) {
-        console.log("stop-refresh");
+        // console.log("stop-refresh");
         return; 
     }
     const activeLink = document.querySelector('.nav-link.active');
