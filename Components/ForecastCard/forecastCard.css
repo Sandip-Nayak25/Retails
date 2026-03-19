@@ -31,7 +31,7 @@
     background-color: var(--work-card-bgcolor);
 
     & .forecast-label {
-    color: #000; 
+    color: var(--text-dark); 
     font-size: 2rem;
     padding: 0.5rem 0;
     font-weight: 600;

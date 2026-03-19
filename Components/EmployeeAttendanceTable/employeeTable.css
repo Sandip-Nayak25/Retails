@@ -101,7 +101,7 @@ td {
 .performance-text {
     font-size: 0.75rem;
     font-weight: 700;
-    color: #000;
+    color: var(--text-dark);
     min-width: 35px; 
     text-align: right;
 }

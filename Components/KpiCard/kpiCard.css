@@ -34,7 +34,7 @@
     }
 
     & .kpi-label {
-        color: #000; 
+        color: var(--text-dark); 
         font-size: 1.8rem;
         font-weight: 600;
         line-height: 1.5;
