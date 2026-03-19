@@ -95,10 +95,10 @@ setInterval(() => {
     const isTyping = document.activeElement.tagName === 'INPUT' || 
                      document.activeElement.tagName === 'TEXTAREA';
 
-    // if (isTyping) {
-    //     console.log("stop-refresh");
-    //     return; 
-    // }
+    if (isTyping) {
+        console.log("stop-refresh");
+        return; 
+    }
     const activeLink = document.querySelector('.nav-link.active');
     const currentPage = activeLink.dataset.page;
     // console.log(" Auto-refresh");
