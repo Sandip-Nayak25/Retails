@@ -12,7 +12,7 @@
     /* justify-content: space-between; */
     flex-direction: column;
     border: 0.15rem solid var(--card-border-color);  
-    width: 100%; 
+    width: var(--card-width); 
     padding: 2rem 1.5rem;
     border-radius: 8px;
     background-color: #EFF6FF;
@@ -77,7 +77,7 @@
     }
     
     .kpi-card {
-        width: 100%; 
+        width: var(--card-width); 
         max-width: none;
         padding: 1.5rem;
     }
