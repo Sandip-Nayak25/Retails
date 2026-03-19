@@ -2,7 +2,6 @@
 .forecast-header{
     font-size: 1.2rem;
     margin-bottom: 2rem;
-
     & .forecast-label{
     font-size: 0.77em;
     line-height: 2;
