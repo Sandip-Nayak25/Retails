@@ -40,8 +40,12 @@ if (salesData?.length || empData?.length) {
   localStorage.setItem(CACHE_KEY, JSON.stringify(allApiData));
 }
 
-
+let currentPage = null;
 async function navigateTo(page) {
+
+    if(page === currentPage && !isAutoRefresh)return;
+    currentPage = page;
+
     const root = document.getElementById('root');
     const dateElement = document.getElementById('current-date');
     const viewTitle = document.getElementById("view-title");
@@ -81,12 +85,13 @@ async function navigateTo(page) {
         root.replaceChildren(pageWrapper);
     }
 
-    document.addEventListener('click', (e) => {
-        const link = e.target.closest('.nav-link');
-        if (link) navigateTo(link.dataset.page);
-    });
 }
 
+document.addEventListener('click', (e) => {
+    const link = e.target.closest('.nav-link');
+    if (link) navigateTo(link.dataset.page);
+});
+    
 navigateTo('dashboard');
 
 
