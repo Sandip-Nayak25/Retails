@@ -67,12 +67,12 @@ async function navigateTo(page) {
     const renderPage = components[page];
     const content = renderPage(allApiData);
 
-    if (renderPage) {
-        const pageWrapper = document.createElement('div');
-        pageWrapper.className = 'page-content';
+    const pageWrapper = document.createElement('div');
+    const template = document.createElement('template');
 
+    if (renderPage) {
+        pageWrapper.className = 'page-content';
         if (typeof content === 'string') {
-            const template = document.createElement('template');
             template.innerHTML = content.trim(); 
             pageWrapper.appendChild(template.content);
 
