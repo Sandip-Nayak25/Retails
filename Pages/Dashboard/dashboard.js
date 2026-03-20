@@ -3,7 +3,7 @@ import { kpiCard } from "../../Components/KpiCard/kpiCard.js";
 import { laborEfficiency } from "../../Components/LaborEfficiency/laborEfficiency.js";
 import { salesChart } from "../../Components/SalesChart/salesChart.js";
 
-export const dashboard = (allApiData) => {
+export const dashboard = () => {
 
 
     return `
