@@ -1,6 +1,5 @@
 export function forecastCard(allApiData) {
         const sale = allApiData.salesData[0].weeklySales || "-";
-        const day = sale.map(d => d.day);
          const todaySales = sale.map((sal) => sal.sales).reduce((acc,cur) => acc + cur);
          const trans = sale.map((sal) => sal.sales).length;
          const avg = todaySales / trans;
@@ -25,7 +24,7 @@ export function forecastCard(allApiData) {
                     <img src="./assets/icons/calendar.svg" alt=''>
                 </div>
                 <p class="forecast-title">Peak Day</p>
-                <p class="forecast-label">${day[5]}</p>
+                <p class="forecast-label">Saturday</p>
             </div>
 
             <div class="forecast-card">
