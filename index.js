@@ -82,13 +82,15 @@ async function navigateTo(page) {
     }
 
 }
+navigateTo('dashboard');
 
 document.addEventListener('click', (e) => {
     const link = e.target.closest('.nav-link');
-    if (link) navigateTo(link.dataset.page);
+    if (link){
+        navigateTo(link.dataset.page)
+    };
 });
     
-navigateTo('dashboard');
 
 
 setInterval(() => {
