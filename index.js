@@ -82,7 +82,7 @@ async function navigateTo(page) {
     }
 
 }
-navigateTo('dashboard');
+navigateTo( "dashboard" );
 
 document.addEventListener('click', (e) => {
     const link = e.target.closest('.nav-link');
