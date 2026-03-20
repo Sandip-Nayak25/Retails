@@ -27,7 +27,7 @@
     gap: 0.3rem;
     padding: 5.5rem 1rem;
     border-radius: 8px;
-    background-color: var(--work-card-bgcolor);
+    background-color: var(--card-bgcolor);
 
     & .forecast-label {
     color: var(--text-dark); 
