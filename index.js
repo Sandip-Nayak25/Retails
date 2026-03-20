@@ -65,9 +65,9 @@ async function navigateTo(page) {
     });
 
     const renderPage = components[page];
+    const content = renderPage(allApiData);
 
     if (renderPage) {
-        const content = renderPage();
         const pageWrapper = document.createElement('div');
         pageWrapper.className = 'page-content';
 
