@@ -48,17 +48,21 @@ async function navigateTo(page) {
     const title = document.getElementById("title");
 
     // ! Title Update
-    if(title) title.textContent = `RetailDash | ${page.toUpperCase()}`;
+    if(title) {
+        title.textContent = `RetailDash | ${page.toUpperCase()}`;
+    };
 
     // ! Header Title Update
-    if(viewTitle) viewTitle.textContent = `DOWNTOWN STORE:-  ${page.toUpperCase()}`;
+    if(viewTitle) {
+        viewTitle.textContent = `DOWNTOWN STORE:-  ${page.toUpperCase()}`
+    };
 
     // ! Current Time
     if (dateElement) {
         dateElement.textContent = new Date().toLocaleDateString('en-IN', {
             year: 'numeric', month: 'long', day: 'numeric', weekday: "long"
         });
-    }
+    };
  
     document.querySelectorAll('.nav-link').forEach(link => {
         link.classList.toggle('active', link.dataset.page === page);
