@@ -98,14 +98,15 @@ document.addEventListener('click', (e) => {
 
 
 setInterval(() => {
-    const isTyping = document.activeElement.tagName === 'INPUT' || 
-                     document.activeElement.tagName === 'TEXTAREA';
-
+    const input = document.activeElement.tagName === 'INPUT';
+    const textarea = document.activeElement.tagName === 'TEXTAREA';
+    const activeLink = document.querySelector('.nav-link.active');
+    
+    const isTyping = input || textarea;
     if (isTyping) {
         // console.log("stop-refresh");
         return; 
     }
-    const activeLink = document.querySelector('.nav-link.active');
     const currentPage = activeLink.dataset.page;
     // console.log(" Auto-refresh");
     navigateTo(currentPage);
