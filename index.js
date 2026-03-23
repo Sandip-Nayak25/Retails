@@ -54,7 +54,7 @@ async function navigateTo(page) {
 
     // ! Header Title Update
     if(viewTitle) {
-        viewTitle.textContent = `DOWNTOWN STORE:-  ${page.toUpperCase()}`
+        viewTitle.textContent = `DOWNTOWN STORE  ${page.toUpperCase()}`
     };
 
     // Current Time
