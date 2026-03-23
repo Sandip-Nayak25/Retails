@@ -58,25 +58,3 @@
 }
 
 
-
-/* ! laptop screens */
-@media (max-width: 1024px) {
-    .kpi-card {
-        width: 350px;
-    }
-}
-
-/* ! tablet screens */
-@media (max-width: 768px) {
-    .kpi-grid {
-        gap: 15px;
-        padding: 0 10px;
-        flex-wrap: wrap;
-    }
-    
-    .kpi-card {
-        width: var(--card-width); 
-        max-width: none;
-        padding: 1.5rem;
-    }
-}
