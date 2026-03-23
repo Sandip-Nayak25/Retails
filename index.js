@@ -96,7 +96,6 @@ document.addEventListener('click', (e) => {
 });
     
 
-
 setInterval(() => {
     const input = document.activeElement.tagName === 'INPUT';
     const textarea = document.activeElement.tagName === 'TEXTAREA';
