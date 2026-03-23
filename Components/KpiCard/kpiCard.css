@@ -16,7 +16,6 @@
     padding: 2rem 1.5rem;
     border-radius: 8px;
     background-color: #EFF6FF;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
 
     & .cardIcon {
         background-color: #DBEAFE;
@@ -56,7 +55,6 @@
 
 .kpi-card:hover {
     box-shadow: 0rem 0.15rem .4rem var(--card-hover-color);
-    transform: translateY(-5px);
 }
 
 

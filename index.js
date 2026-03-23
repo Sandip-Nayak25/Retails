@@ -57,7 +57,7 @@ async function navigateTo(page) {
         viewTitle.textContent = `DOWNTOWN STORE:-  ${page.toUpperCase()}`
     };
 
-    // ! Current Time
+    // Current Time
     if (dateElement) {
         dateElement.textContent = new Date().toLocaleDateString('en-IN', {
             year: 'numeric', month: 'long', day: 'numeric', weekday: "long"
