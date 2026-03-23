@@ -16,20 +16,20 @@ const API = {
     empTable: "https://6998492fd66520f95f171dc7.mockapi.io/tuy"
 };
 
-const CACHE_KEY = "app_cache_data"; // ! localStorage key
-
-const cachedData = JSON.parse(localStorage.getItem(CACHE_KEY)) || {};
 
 const p2 = fetch(API.sales)
-  .then(res => res.ok ? res.json() : null)
-  .catch(() => null);
+.then(res => res.ok ? res.json() : null)
+.catch(() => null);
 
 const p3 = fetch(API.empTable)
-  .then(res => res.ok ? res.json() : null)
-  .catch(() => null);
+.then(res => res.ok ? res.json() : null)
+.catch(() => null);
 
 const salesData = await p2;
 const empData = await p3;
+
+const CACHE_KEY = "app_cache_data"; // ! localStorage key
+const cachedData = JSON.parse(localStorage.getItem(CACHE_KEY)) || {};
 
 const allApiData = {
   salesData: salesData?.length ? salesData : (cachedData.salesData || []),
