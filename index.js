@@ -89,7 +89,7 @@ async function navigateTo(page) {
 
     localStorage.setItem("currentPage", page);
 }
-navigateTo(localStorage.getItem("currentPage"));
+navigateTo(localStorage.getItem("currentPage") || "dashboard");
 
 document.addEventListener('click', (e) => {
     const link = e.target.closest('.nav-link');
