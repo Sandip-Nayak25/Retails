@@ -41,7 +41,9 @@ if (salesData?.length || empData?.length) {
 }
 
 async function navigateTo(page) {
-
+    
+    
+   
     const root = document.getElementById('root');
     const dateElement = document.getElementById('current-date');
     const viewTitle = document.getElementById("view-title");
@@ -85,8 +87,9 @@ async function navigateTo(page) {
         root.replaceChildren(pageWrapper);
     }
 
+    localStorage.setItem("currentPage", page);
 }
-navigateTo( "dashboard" );
+navigateTo(localStorage.getItem("currentPage"));
 
 document.addEventListener('click', (e) => {
     const link = e.target.closest('.nav-link');
